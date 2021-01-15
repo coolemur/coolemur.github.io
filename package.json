@@ -1,0 +1,26 @@
+{
+  "name": "coolemur.github.io",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolemur/coolemur.github.io.git"
+  },
+  "author": "Coolemur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coolemur/coolemur.github.io/issues"
+  },
+  "homepage": "https://github.com/coolemur/coolemur.github.io#readme",
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
+}
