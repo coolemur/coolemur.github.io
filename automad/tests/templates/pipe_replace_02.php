@@ -1,1 +1,0 @@
-@{ somevar | def('{{[Test]}}') | replace('/\\{\\{([^\\}]+)\\}\\}/', '<div class="test">$1</div>') | replace('/\\[([^\\]]+)\\]/', '<p>$1</p>') }
