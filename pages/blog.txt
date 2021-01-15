@@ -1,0 +1,29 @@
+title: Home
+
+-
+
+hidden: on
+
+-
+
+date: 2017-06-28 12:00:00
+
+-
+
++main: {"time":1610723734925,"blocks":[{"type":"paragraph","data":{"text":"Hello there!","large":true}}],"version":"2.18.0"}
+
+-
+
+checkboxHideFilters: 1
+
+-
+
+checkboxHideInMenu: 1
+
+-
+
+checkboxHideTitle: 1
+
+-
+
+filterPagelistByUrl: ^/

@@ -1,0 +1,745 @@
+btn_about: Tietoja Automadista
+
+-
+
+btn_add: Lisätä
+
+-
+
+btn_add_page: Lisää sivu
+
+-
+
+btn_add_var: Lisää muuttuja
+
+-
+
+btn_apply_reload: Käytä ja lataa uudelleen
+
+-
+
+btn_browse: Selaa tiedostoja
+
+-
+
+btn_close: Kiinni
+
+-
+
+btn_copy_url_clipboard: Kopioi URL-osoite leikepöydälle
+
+-
+
+btn_copy_resized: Kopioi ja muuta kokoa
+
+-
+
+btn_data: Tiedot ja asetukset
+
+-
+
+btn_delete_page: Poista sivu
+
+-
+
+btn_download_file: Ladata
+
+-
+
+btn_duplicate_page: Kopioi sivu
+
+-
+
+btn_edit: Muokata
+
+-
+
+btn_edit_file_info: Muokkaa tiedostotietoja
+
+-
+
+btn_edit_headless_template: Muokkaa Headless-mallia
+
+-
+
+btn_edit_page: Muokkaa sivua
+
+-
+
+btn_files: Ladatut tiedostot
+
+-
+
+btn_get_themes: Hanki lisää teemoja
+
+-
+
+btn_getting_data: Haetaan tietoja ...
+
+-
+
+btn_hide_page: Piilota sivu navigoinnissa
+
+-
+
+btn_home: Home
+
+-
+
+btn_import: Tuo URL-osoitteesta
+
+-
+
+btn_inpage_edit: Sivun muokkaustila
+
+-
+
+btn_install: Asentaa
+
+-
+
+btn_link: Linkki
+
+-
+
+btn_log_out: Kirjautua ulos
+
+-
+
+btn_login: Kirjaudu sisään
+
+-
+
+btn_manage_users: Hallinnoi käyttäjiä
+
+-
+
+btn_more: Lisää
+
+-
+
+btn_move_page: Siirrä sivu
+
+-
+
+btn_ok: Ok
+
+-
+
+btn_open_log: Avaa loki
+
+-
+
+btn_open_website: Avaa verkkosivusto
+
+-
+
+btn_page_private: Pidä sivu yksityisenä
+
+-
+
+btn_readme: Readme
+
+-
+
+btn_remove: Poista
+
+-
+
+btn_remove_selected: Poista valitut
+
+-
+
+btn_reset: Nollaa
+
+-
+
+btn_save: Tallenna muutokset
+
+-
+
+btn_update: Päivittää
+
+-
+
+btn_upload: Lähetä
+
+-
+
+confirm_delete_files: Haluatko varmasti poistaa valitut tiedostot?
+
+-
+
+confirm_delete_page: Haluatko varmasti poistaa nykyisen sivun?
+
+-
+
+confirm_delete_users: Haluatko varmasti poistaa valitut käyttäjät?
+
+-
+
+confirm_reset_headless: Haluatko varmasti nollata mukautetun headless-mallin?
+
+-
+
+dashboard_memory: Muistin käyttö:
+
+-
+
+dashboard_modified: Viimeisin toiminta sivustolla
+
+-
+
+dashboard_recently_edited: Äskettäin muokatut sivut
+
+-
+
+dropzone: Vedä tiedostot tähän
+
+-
+
+error_cache_purged: Välimuistihakemistoa ei voitu tyhjentää!
+
+-
+
+error_existing: On jo olemassa!
+
+-
+
+error_file_save: Ei voitu tallentaa
+
+-
+
+error_file_format: Tiedostotyyppiä ei tueta
+
+-
+
+error_file_not_found: Tiedostoa ei löytynyt!
+
+-
+
+error_file_size: Virheellinen tiedostokoko!
+
+-
+
+error_form: Puutteelliset tai virheelliset tiedot! <br /> Kaikki kentät ovat pakollisia ja ne on täytettävä kuvatulla tavalla!
+
+-
+
+error_login: Väärä käyttäjänimi tai salasana
+
+-
+
+error_log_out: Kirjautuminen ulos epäonnistui!
+
+-
+
+error_no_destination: Valitse sivu määränpääksi!
+
+-
+
+error_no_js: Ota JavaScript käyttöön selaimessasi käyttääksesi hallintapaneelia!
+
+-
+
+error_no_theme: Teemaa ei ole valittu! Valitse pääteema.
+
+-
+
+error_no_url: Anna kelvollinen URL-osoite!
+
+-
+
+error_import: Tiedoston tuonti epäonnistui!
+
+-
+
+error_json: Virheellinen JSON! Kokoonpanotiedoston sisältö ei ole alustettu oikein.
+
+-
+
+error_packages: Pakettien lataaminen Packagistista epäonnistui!
+
+-
+
+error_page_not_found: Sivua ei löydetty!
+
+-
+
+error_page_title: Otsikko puuttuu!
+
+-
+
+error_password_current: Nykyinen salasana on väärä!
+
+-
+
+error_password_repeat: Anna kaksi kertaa sama uusi salasana!
+
+-
+
+error_password_reuse: Älä käytä vanhaa salasanaasi uudelleen!
+
+-
+
+error_permission: Estetyt käyttöoikeudet:
+
+-
+
+error_template_missing: Malli puuttuu
+
+-
+
+error_update_connection: Yhteyttä päivityspalvelimeen ei voi muodostaa! Tämä voi yleensä johtua väärästä päivityskokoonpanosta (config / config.php), SSL-varmentevirheestä tai puuttuvasta CURL-kirjastosta.
+
+-
+
+error_update_download: Päivityksen lataaminen epäonnistui!
+
+-
+
+error_update_items: Virheellinen luettelo päivitettävistä tuotteista!
+
+-
+
+error_update_failed: Päivitys epäonnistui! Palauta asennus varmuuskopiosta.
+
+-
+
+error_update_not_supported: Palvelimesi ei tue päivityksiä! Päivitysohjelma vaatii cURL- ja ZIP-kirjastojen asentamisen.
+
+-
+
+error_update_permission: Päivitystä ei voi suorittaa! Luvat evätty!
+
+-
+
+error_var_exists: Tällä nimellä on jo muuttuja!
+
+-
+
+error_var_name: Et voi lisätä muuttujaa ilman nimeä!
+
+-
+
+file_name: Tiedoston nimi
+
+-
+
+file_caption: Kuvateksti
+
+-
+
+image_crop: Rajaa kuva
+
+-
+
+image_height_px: Korkeus (pikseliä)
+
+-
+
+image_width_px: Leveys (pikseliä)
+
+-
+
+image_options: Vaihtoehdot
+
+-
+
+image_select: Valitse Kuva
+
+-
+
+images_page: Sivukuvat
+
+-
+
+images_shared: Yleiset kuvat
+
+-
+
+link_placeholder: Aloita sivun otsikon kirjoittaminen tai liitä ulkoinen linkki tähän
+
+-
+
+link_title: Lisää linkki
+
+-
+
+login_title: Kirjaudu sisään
+
+-
+
+login_username: Käyttäjätunnus
+
+-
+
+login_password: Salasana
+
+-
+
+log_out_title: Kirjautunut ulos
+
+-
+
+packages_title: Paketit
+
+-
+
+packages_browse: Avaa pakettiselain
+
+-
+
+packages_filter: Suodattaa
+
+-
+
+packages_installed: On asennettu
+
+-
+
+packages_installing: Asennetaan pakettia ...
+
+-
+
+packages_update_all: Päivitä kaikki
+
+-
+
+packages_updating_all: Päivitetään paketteja ...
+
+-
+
+packages_updating: Päivitetään pakettia ...
+
+-
+
+packages_removing: Poistetaan pakettia ...
+
+-
+
+page_add_location: Valitse uuden sivun sijainti
+
+-
+
+page_move_destination: Valitse siirrettävä kohde
+
+-
+
+page_settings: Sivun asetukset
+
+-
+
+page_prefix: Etuliite (järjestys navigoinnissa)
+
+-
+
+page_redirect: Ohjaa sivu toiseen URL-osoitteeseen
+
+-
+
+page_tags: Tunnisteet (erota useita tunnisteita pilkulla tai sarkaimella)
+
+-
+
+page_theme_template: Sapluuna
+
+-
+
+page_var_name: Muuttujan nimi
+
+-
+
+page_vars_content: Sisältö
+
+-
+
+page_vars_settings: Malliasetukset
+
+-
+
+page_vars_unused: Käyttämättömät muuttujat
+
+-
+
+page_visibility: Visibility
+
+-
+
+page_private: Yksityinen
+
+-
+
+sidebar_header_global: Maailmanlaajuinen
+
+-
+
+sidebar_header_pages: Sivut
+
+-
+
+shared_title: Yleiset tiedot ja tiedostot
+
+-
+
+shared_theme: Pääteema
+
+-
+
+shared_theme_apply: Haluatko käyttää valittua teemaa ja päivittää käytettävissä olevien muuttujien luettelon nyt? Tallentamattomat muutokset tallennetaan.
+
+-
+
+shared_vars_content: Oletussisältö
+
+-
+
+shared_vars_settings: Mallin oletusasetukset
+
+-
+
+shared_vars_unused: Käyttämättömät muuttujat
+
+-
+
+shared_var_name: Muuttujan nimi
+
+-
+
+search_no_results: Sivuja ei löytynyt!
+
+-
+
+search_placeholder: Etsi
+
+-
+
+search_title: Hakutulokset
+
+-
+
+success_added: Lisätty onnistuneesti
+
+-
+
+success_cache_cleared: Välimuisti tyhjennettiin onnistuneesti!
+
+-
+
+success_cache_purged: Välimuistihakemisto puhdistettiin onnistuneesti!
+
+-
+
+success_config_update: Kokoonpano on päivitetty onnistuneesti!
+
+-
+
+success_created: Luo onnistuneesti kuva
+
+-
+
+success_installed: Asennus onnistui
+
+-
+
+success_password_changed: Salasanasi vaihdettiin onnistuneesti!
+
+-
+
+success_log_out: Kirjautuminen ulos onnistuneesti
+
+-
+
+success_remove: Poistaminen onnistui
+
+-
+
+success_reset_headless: Oletuspäimaton malli palautettiin onnistuneesti!
+
+-
+
+success_saved: Tallennetut muutokset
+
+-
+
+success_update: Päivitetty Automad!
+
+-
+
+success_packages_updated_all: Kaikkien pakettien päivittäminen onnistui
+
+-
+
+success_package_updated: Päivitetty onnistuneesti
+
+-
+
+sys_cache_info: Välimuistin tallentaminen on välttämätöntä sivustosi nopeuttamiseksi, ja se tulisi yleensä ottaa käyttöön. Joissakin olosuhteissa haluat ehkä poistaa välimuistin käytöstä tai tyhjentää sen.
+
+-
+
+sys_cache_clear: Tyhjennä välimuisti
+
+-
+
+sys_cache_clear_info: Sivuston välimuistin tyhjentäminen pakottaa tarkistamaan päivitetyt sivut ja tiedostot. Tämä toiminto ei poista sivutiedostoja tai kuvia välimuistihakemistosta.
+
+-
+
+sys_cache_monitor: Tarkistusväli on
+
+-
+
+sys_cache_monitor_info: Kun välimuisti on käytössä, Automad tarkistaa säännöllisesti tiedostojärjestelmän muutokset. Näiden tarkastusten tiheys voidaan määrittää tässä.
+
+-
+
+sys_cache_lifetime: Välimuistin käyttöikä on
+
+-
+
+sys_cache_lifetime_info: Kaikilla välimuistissa olevilla Automad-tiedoilla ja sivuilla on suurin käyttöikä. Kun objektin käyttöikä on ylitetty, sen välimuisti rakennetaan uudelleen pyydettäessä.
+
+-
+
+sys_cache_purge: Tyhjennä välimuistihakemisto
+
+-
+
+sys_cache_purge_info: Toisin kuin välimuistin tyhjentäminen, välimuistihakemiston tyhjentäminen siirtää kaikki väliaikaiset tiedostot, poistetut sivut, päivitysvarmuuskopiot ja välimuistissa olevat kuvat järjestelmän temprary-hakemistoon. Tämä pakottaa kuvan ja sivun välimuistin täydellisen uudelleenrakentamisen sekä kaikkien poistettujen sivujen siivoamisen. Useimmissa järjestelmissä väliaikainen hakemisto puhdistetaan ajoittain tai uudelleenkäynnistyksen yhteydessä. Joissakin järjestelmissä kyseinen hakemisto on kuitenkin tyhjennettävä manuaalisesti.
+
+-
+
+sys_config: Muokkaa määritystiedostoa
+
+-
+
+sys_config_warning: Huomaa, että vain kokeneiden käyttäjien tulisi muokata määritystiedostoa asennuksen vahingoittumisen välttämiseksi. Jos jokin menee pieleen, poista määritystiedosto palvelimeltasi manuaalisesti palauttaaksesi oletusasetukset.
+
+-
+
+sys_debug_info: Kun virheenkorjaus on käytössä, kaikki Automadin prosessit kirjataan selaimesi konsoliin. Virheenkorjausta tarvitaan vain kehitykseen tai vianmääritykseen, ja se tulisi poistaa käytöstä kaikissa muissa tapauksissa.
+
+-
+
+sys_headless_edit_info: Palautettujen JSON-tietojen rakennetta ohjataan mallilla. Voit muokata kyseistä mallia käyttämällä Automadin sisäänrakennettua mallikieliä kenttien mukauttamiseksi muuttujien, objektien ja ohjausrakenteiden avulla.
+
+-
+
+sys_headless_info: Päättömän tilan aktivoiminen tekee Automadista sisällönhallintajärjestelmän, joka keskittyy kokonaan sisällön luomiseen ilman esityskerrosta. Vaikka hallintapaneelia voidaan edelleen käyttää sisällön hallintaan, kaikki tiedot ja tiedostot ovat käytettävissä vain luku -oikeutetun JSON-sovellusliittymän kautta.
+
+-
+
+sys_language: Kieli
+
+-
+
+sys_language_info: Kojelaudalle on saatavana useita kieliä. Käännökset luodaan automaattisesti. Tämä ominaisuus on vielä kokeiluvaiheessa, joten jotkin käännökset eivät välttämättä ole tarkkoja.
+
+-
+
+sys_status_cache_enabled: Välimuisti on käytössä
+
+-
+
+sys_status_cache_disabled: Välimuisti on poistettu käytöstä
+
+-
+
+sys_status_debug_enabled: Virheenkorjaus on käytössä
+
+-
+
+sys_status_update_available: Päivitä
+
+-
+
+sys_status_update_not_available: Automad on ajan tasalla
+
+-
+
+sys_title: Järjestelmäasetukset
+
+-
+
+sys_update: Päivittää
+
+-
+
+sys_update_available: Automadin uudempi versio on saatavana ja valmis asennettavaksi. <br> Varmuuskopioi nykyinen asennuksesi ennen päivittämistä!
+
+-
+
+sys_update_current_version: Nykyinen asennettu versio on
+
+-
+
+sys_update_items: Huomaa, että päivitys vaikuttaa seuraaviin tiedostoihin ja hakemistoihin:
+
+-
+
+sys_update_not_required: Automad on ajan tasalla.
+
+-
+
+sys_update_progress: Odota ja älä sulje ikkunaa päivittäessäsi ...
+
+-
+
+sys_update_to: Päivitä versioon
+
+-
+
+sys_update_windows_warning: Varmista ennen päivityksen suorittamista, että kaikki asennuksen tiedostot ovat suljettuina ulkoisissa ohjelmissa, jotta vältät käyttöoikeusongelmat!
+
+-
+
+sys_user: Käyttäjät
+
+-
+
+sys_user_info: Voit lisätä tai poistaa lisää käyttäjiä tai vaihtaa salasanasi täällä.
+
+-
+
+sys_user_change_password: Vaihda salasanasi
+
+-
+
+sys_user_change_password_current: Nykyinen salasana
+
+-
+
+sys_user_change_password_new: Uusi salasana
+
+-
+
+sys_user_change_password_repeat: Toista salasana
+
+-
+
+sys_user_add: Lisää käyttäjä
+
+-
+
+sys_user_add_name: Käyttäjätunnus
+
+-
+
+sys_user_add_password: Salasana
+
+-
+
+sys_user_add_repeat: Toista salasana
+
+-
+
+sys_user_registered: Rekisteröityneet käyttäjät
+
+-
+
+sys_user_you: Sinä
+
+-
+
+theme_readme_alert: Napsauttamalla tätä voit lukea aktiivisen teeman ohjeet!
