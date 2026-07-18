@@ -1,14 +1,172 @@
- html, body {
-  margin: 0;
-  height: 100%;
+@font-face {
+  font-family: "Rosario";
+  src: url("../fonts/Rosario-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
-.content {
-  opacity: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+:root {
+  color-scheme: dark;
+  --ink: #090909;
+  --paper: #f0eee7;
+}
 
-  transition: opacity 0.5s ease-in-out;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: var(--ink);
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100svh;
+  color: var(--paper);
+  overscroll-behavior: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.motion-stage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  height: 100svh;
+  isolation: isolate;
+  overflow: hidden;
+  background: var(--ink);
+}
+
+.motion-canvas {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  touch-action: manipulation;
+}
+
+.motion-stage.is-ready .motion-canvas {
+  opacity: 1;
+}
+
+.static-fallback {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  padding: 8vw;
+  color: var(--paper);
+  background: var(--ink);
+  font-family: "Rosario", sans-serif;
+  font-size: clamp(3.4rem, 14vw, 12rem);
+  line-height: 0.82;
+  letter-spacing: -0.055em;
+  text-align: center;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.motion-toggle {
+  position: absolute;
+  z-index: 2;
+  right: max(1.25rem, env(safe-area-inset-right));
+  bottom: max(1.25rem, env(safe-area-inset-bottom));
+  display: grid;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  border-radius: 50%;
+  color: #fff;
+  background: transparent;
+  opacity: 0;
+  mix-blend-mode: difference;
+  cursor: pointer;
+}
+
+.motion-stage.is-ready .motion-toggle {
+  opacity: 1;
+}
+
+.motion-toggle:hover {
+  color: #000;
+  background: #fff;
+}
+
+.motion-toggle:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 4px;
+}
+
+.motion-toggle__icon {
+  position: relative;
+  display: block;
+  width: 0.72rem;
+  height: 0.9rem;
+}
+
+.motion-toggle[data-state="playing"] .motion-toggle__icon::before,
+.motion-toggle[data-state="playing"] .motion-toggle__icon::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: currentColor;
+  content: "";
+}
+
+.motion-toggle[data-state="playing"] .motion-toggle__icon::before {
+  left: 1px;
+}
+
+.motion-toggle[data-state="playing"] .motion-toggle__icon::after {
+  right: 1px;
+}
+
+.motion-toggle[data-state="paused"] .motion-toggle__icon {
+  width: 0;
+  height: 0;
+  border-top: 0.48rem solid transparent;
+  border-bottom: 0.48rem solid transparent;
+  border-left: 0.72rem solid currentColor;
+}
+
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+@media (max-width: 38rem) {
+  .static-fallback {
+    font-size: clamp(3.1rem, 16vw, 6rem);
+  }
+}
+
+@media (max-height: 30rem) {
+  .motion-toggle {
+    right: max(0.75rem, env(safe-area-inset-right));
+    bottom: max(0.75rem, env(safe-area-inset-bottom));
+    width: 2.5rem;
+    height: 2.5rem;
+  }
 }
